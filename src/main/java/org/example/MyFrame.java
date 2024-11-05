@@ -259,7 +259,7 @@ public class MyFrame extends JFrame {
         dialog.getContentPane().setPreferredSize(new Dimension(368, 228));
         dialog.pack();
         dialog.setModal(true);
-        dialog.setTitle("Победа!");
+        dialog.setTitle("Игра пройдена");
 
         JLabel gameOverLabel = new JLabel(gameOverIcon);
         dialog.getContentPane().add(gameOverLabel);
