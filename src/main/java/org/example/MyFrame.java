@@ -13,8 +13,8 @@ public class MyFrame extends JFrame {
     private MyLabel scoreLabel;
     private JProgressBar progressBar;
     MyLabel levelLabel;
-    private int[] levelCups = {10, 20, 30, 40}; // тестовые значения
-    private int[] upgradeCups = {15, 30};
+    private int[] levelCups = {100, 500, 1500, 3000}; // тестовые значения
+    private int[] upgradeCups = {150, 300};
     MyIconButton awardButton2;
     MyIconButton button1;
 
